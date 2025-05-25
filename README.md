@@ -26,7 +26,7 @@ This project demonstrates a basic TCP client-server communication in Python usin
 Open a terminal and run:
 
 ```bash
-python3 [server.py](http://_vscodecontentref_/0)
+python3 server.py
 ```
 
 You should see:
@@ -40,7 +40,7 @@ Server is listening on 127.0.0.1:12345
 Open another terminal and run:
 
 ```bash
-python3 [client.py](http://_vscodecontentref_/1)
+python3 client.py
 ```
 
 Enter a message when prompted. The client will display the server's response.
@@ -57,7 +57,7 @@ Server:
 
 ```bash
 Server is listening on 127.0.0.1:12345
-Connected with the client: ('127.0.0.1', <port>)
+Connected with the client: ('127.0.0.1', 12345)
 Received: hello world
 Replied: HELLO WORLD
 ```
